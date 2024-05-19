@@ -7,6 +7,6 @@ The **_Adam Optimizer_** is the best optimizer, I've ever used. It helps to impr
 
 In future, I will upload every **ML-Projects** that I have finished.
 
-### **_THANK YOU_**🤝
+### **_THANK YOU_** 🤝
 
 
