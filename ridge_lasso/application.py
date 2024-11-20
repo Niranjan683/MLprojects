@@ -20,7 +20,7 @@ def index():
 def predict_datapoint():
     if request.method == "POST":
         Temperature = float(request.form.get("Temperature"))
-        Rh = float(request.form.get("Rh"))
+        Rh = int(request.form.get("Rh"))
         Ws = float(request.form.get("Ws"))
         Rain = float(request.form.get("Rain"))
         FFMC = float(request.form.get("FFMC"))
@@ -41,4 +41,4 @@ def predict_datapoint():
 
 
 if __name__=='__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0',debug=True)
